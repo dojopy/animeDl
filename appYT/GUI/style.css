@@ -1,0 +1,164 @@
+
+QProgressBar {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+QProgressBar::chunk {
+    background-color: #00FA9A;      
+    width: 1px;
+}
+
+
+
+QTabWidget::pane { /* The tab widget frame */
+    border-top: 2px solid #C2C7CB;
+    position: absolute;
+    top: -0.5em;
+}
+
+QTabWidget::tab-bar {
+    alignment: center;
+}
+
+/* Style the tab using the tab sub-control. Note that
+    it reads QTabBar _not_ QTabWidget */
+QTabBar::tab {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #E1E1E1, stop: 0.4 #DDDDDD,
+                                stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+    border: 2px solid #C4C4C3;
+    border-bottom-color: #C2C7CB; /* same as the pane color */
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    min-width: 8ex;
+    padding: 2px;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #fafafa, stop: 0.4 #f4f4f4,
+                                stop: 0.5 #e7e7e7, stop: 1.0 #fafafa);
+}
+
+QTabBar::tab:selected {
+    border-color: #9B9B9B;
+    border-bottom-color: #C2C7CB; /* same as pane color */
+}
+
+
+
+QLineEdit {
+    border: 1px solid black;
+    border-radius: 0px;
+    padding: 0 8px;
+    background: white;
+    selection-background-color: darkgray;
+}
+
+
+QGroupBox
+{
+    subcontrol-origin: margin;  
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border: 0px solid #0b477b;
+    border-bottom: none;
+    padding: 2 10px;
+    color: none;   
+}
+
+QGroupBox:title
+{
+    subcontrol-origin: margin;  
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border: 0px solid #0b477b;
+    border-bottom: none;
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+        stop: 0 #005192, stop: 1 #002f60);
+    padding: 2 10px;
+    color: white;   
+}
+
+
+
+
+#pushButton,#pushButton_25,#pushButton_11,#pushButton_9,#pausar,#renaudar
+{
+        background-color: #00cc68;
+        border-radius: 4px;
+        color: #000000;
+        font-family: 'Roboto';
+        font-size: 12px;
+    }
+
+#pushButton:hover,#pushButton_25:hover,#pushButton_11:hover,#pushButton_9:hover,#pausar:hover,#renaudar:hover{
+    background-color: #00ff83;
+        }
+
+#pushButton_26,#cancelar,#cancelar_todo{
+        background-color: #bc0f3a;
+        border-radius: 4px;
+        color: #fff;
+        font-family: 'Roboto';
+        font-size: 12px;}
+#pushButton_26,#cancelar,#cancelar_todo:hover{
+    background-color: #d11141;
+}
+
+
+QLabel{
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #fff;
+}
+
+QCheckBox{
+    background-color: #333;
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: white;
+}
+
+QCheckBox:hover{
+    background-color: #5b5b5b;
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: white;
+}
+
+
+#checkBox_6:hover{
+    background-color: #5b5b5b;
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: #00FA9A;
+}
+
+
+QMessageBox{
+    background-color: #333;
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: white;
+    
+}
+
+#MainWindow{
+        background-color: #333;
+    }
+#Dialog{
+        background-color: #333;
+    }
+
+QMenuBar {
+    background-color: rgb(49,49,49);
+    color: rgb(255,255,255);
+    border: 0px solid #000;
+}
+
+QMenuBar::item {
+    background-color: rgb(49,49,49);
+    color: rgb(255,255,255);
+}

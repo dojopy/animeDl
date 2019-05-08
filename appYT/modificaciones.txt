@@ -1,0 +1,11 @@
+mas problemas con witget proceso de descarga
+problem catcha cookie
+
+        # index = self.comboBox.findText('4', QtCore.Qt.MatchFixedString)
+        # if index >= 0:
+        # self.comboBox.setCurrentIndex(3)
+        print type(self.comboBox.currentText())
+
+
+
+http://www.animeyt.tv/ver/shinrei-tantei-yakumo-1-sub-espanol
